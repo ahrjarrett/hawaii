@@ -382,12 +382,12 @@
 
 
 #logo {
-  translate: scaleX(-1);
+  //translate: scaleX(-1);
 	position: absolute !important;
   top: 64px;
 	left: 20px;
 	z-index: 1503;
-  width: 325px;
+  width: 225px;
 
 	.logo {
     display: flex;
@@ -420,12 +420,12 @@
 
 		img {
       position: absolute;
-      height: 84px;
+      height: 64px;
 			width:auto;
       @media screen and (max-width: 767px) {
-        transform: scaleX(-1);
-        height: 45px;
-        top: 8px;
+        //transform: scaleX(-1);
+        height: 40px;
+        top: 4px;
         left: 15px;
       }
 		}

@@ -64,6 +64,9 @@
     line-height: 30px;
     margin: 10px 0 35px;
   }
+  a.italic-phone {
+    font-family: $sansSemiboldItal;
+  }
 
   a.btn-marquee {
     border-radius: 5px;
@@ -80,8 +83,10 @@
 
 .carousel-overlay-img {
   position: relative;
-  bottom: 165px;
-  left: 225px;
+  bottom: 207px;
+  left: 50%;
+  @media screen and (max-width: 950px) { left: 30%; }
+  img { width: 480px; }
 }
 
 .marquee-nav {

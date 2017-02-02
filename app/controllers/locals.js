@@ -1,14 +1,15 @@
 module.exports = function (app) {
 
-	app.locals.company = 'Dallas Medical Equipment';
+	app.locals.company = 'HawaiiMIL'
 
-	app.locals.phone = 8005228331;
+	app.locals.phone = 8082253736
+  app.locals.altPhone = 8087383139
   app.locals.prettifyPhone = function(phone) {
     var ph = phone.toString()
     return '(' + ph.slice(0,3) + ') ' + ph.slice(3,6) + '-' + ph.slice(6)
   }
 
-	app.locals.rootUrl = 'https://git.heroku.com/medical-equipment.git';
+	app.locals.rootUrl = 'https://git.heroku.com/medical-equipment.git'
 	app.locals.social = {
     'https://github.com/ahrjarrett': 'icon-pacman',
     'https://github.com/ahrjarrett': 'icon-github',
@@ -17,7 +18,7 @@ module.exports = function (app) {
     //'https://plus.google.com/': 'icon-google-plus3',
     //'https://youtube.com/': 'icon-youtube',
 		'https://www.linkedin.com/in/andrewhjarrett/': 'icon-linkedin2'
-	};
+	}
 	app.locals.blog = {
 		features: [
 			{
@@ -55,7 +56,7 @@ module.exports = function (app) {
 				link: 'story4link'
 			}
 		]
-	};
+	}
 
 	app.locals.footerUl = {
 		'Hospital & Education': '#',
@@ -64,13 +65,13 @@ module.exports = function (app) {
     'Medical Parts & Supplies': '#',
     'Integrated Rental Services': '#',
     'Veterinary Equipment': '#'
-	};
+	}
 	app.locals.nav = {
 		'Welcome': '',
 		'About': 'about-us',
 		'Services': 'outdoor-living',
 		'Portfolio': 'swimming-pools'
-	};
+	}
 
 	app.locals.subnav = {
 		'Medical Equipment': 'outdoor-living',
@@ -80,12 +81,12 @@ module.exports = function (app) {
 		'Resources': 'financing',
 		'Brands': 'financing',
 		'News': 'financing'
-	};
+	}
 
 	app.locals.partners = [
 		'apsp', 'bbb', 'pentair', 'wetedge'
-	];
+	]
 
-	app.locals.items = {'Link 1':'link-1','Link 2':'link-2','Link 3':'link-3','Link 4':'link-4'};
+	app.locals.items = {'Link 1':'link-1','Link 2':'link-2','Link 3':'link-3','Link 4':'link-4'}
 
-};
+}

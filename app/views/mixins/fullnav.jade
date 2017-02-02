@@ -8,8 +8,8 @@ mixin fullnav(currentPath)
       .sticky-nav-wrap
         ul.nav.navbar-nav
           li.stickyLogo: a(href='#')
-            img(src='/images/logo.png')
-            p DME
+            img(src='/images/logo.svg')
+            //-p DME
           li: a(href='#') Equipment
           li: a(href='#') Supplies
           li: a(href='#') Services
@@ -27,8 +27,8 @@ mixin fullnav(currentPath)
       .nav-logo-wrapper
         #logo.nav-logo-top
           a.logo(href=rootUrl, style='margin-bottom:-50px')
-            img(src='/images/logo.png')
-            p DME
+            img(src='/images/logo.svg')
+            //-p DME
       .nav-ghost-wrapper
       .nav-map-wrapper.sm-hide
 
@@ -69,7 +69,7 @@ mixin fullnav(currentPath)
                   span.toll-free-number.contact-now
                     a(href='tel:#{phone}')
                       i.icon-phone
-                      p (800) 522-8331
+                      p= prettifyPhone(phone)
                 .call-now-small-wrapper
                   .contact-email
                     span.email-now.contact-now
@@ -78,9 +78,9 @@ mixin fullnav(currentPath)
                         p Contact
                   .contact-local
                     span.call-now.contact-now.call-local
-                      a(href='tel:#{phone}')
+                      a(href='tel:#{altPhone}')
                         i.icon-globe.globe-icon
-                        p (972) 522-8331
+                        p= prettifyPhone(altPhone)
 
     #navbar-banner.navbar-banner.sm-hide
       ul#secondary-ul.navbar-ul.secondary-nav

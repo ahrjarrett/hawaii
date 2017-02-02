@@ -899,12 +899,11 @@ span.carousel-btn {
         -ms-flex: 1 0%;
             flex: 1 0%; } }
 #logo {
-  translate: scaleX(-1);
   position: absolute !important;
   top: 64px;
   left: 20px;
   z-index: 1503;
-  width: 325px; }
+  width: 225px; }
   #logo .logo {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -930,14 +929,12 @@ span.carousel-btn {
           /* these are the old styles, before i removed the p tag on sm screens */ } }
     #logo .logo img {
       position: absolute;
-      height: 84px;
+      height: 64px;
       width: auto; }
       @media screen and (max-width: 767px) {
         #logo .logo img {
-          -webkit-transform: scaleX(-1);
-                  transform: scaleX(-1);
-          height: 45px;
-          top: 8px;
+          height: 40px;
+          top: 4px;
           left: 15px; } }
   @media all and (max-width: 767px) {
     #logo {
@@ -2749,11 +2746,9 @@ body {
       width: 200px; }
       #stickyNav li.stickyLogo img {
         position: absolute;
-        -webkit-transform: scaleX(-1);
-                transform: scaleX(-1);
-        top: 9px;
+        top: 5px;
         left: 0px;
-        height: 46px; }
+        height: 40px; }
       #stickyNav li.stickyLogo p {
         position: absolute;
         z-index: -999;
@@ -2851,6 +2846,8 @@ body {
     font-family: "OpenSans-SemiboldItalic", sans-serif;
     line-height: 30px;
     margin: 10px 0 35px; }
+  .carousel-text a.italic-phone {
+    font-family: "OpenSans-SemiboldItalic", sans-serif; }
   .carousel-text a.btn-marquee {
     border-radius: 5px;
     font-size: 1.5rem;
@@ -2864,8 +2861,13 @@ body {
 
 .carousel-overlay-img {
   position: relative;
-  bottom: 165px;
-  left: 225px; }
+  bottom: 207px;
+  left: 50%; }
+  @media screen and (max-width: 950px) {
+    .carousel-overlay-img {
+      left: 30%; } }
+  .carousel-overlay-img img {
+    width: 480px; }
 
 .marquee-nav {
   height: 100px;
