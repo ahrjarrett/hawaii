@@ -2870,7 +2870,7 @@ body {
     width: 480px; }
 
 .marquee-nav {
-  height: 100px;
+  height: 90px;
   border-bottom: 1px solid #a0a4a7;
   background-color: #dadee0;
   background: -webkit-linear-gradient(top, #ffffff 0%, #dadee0 100%);
@@ -2905,10 +2905,6 @@ ul.marquee-nav-ul {
     ul.marquee-nav-ul li i {
       font-size: 34px;
       padding-bottom: 6px; }
-
-.marquee-spacer {
-  height: 80px;
-  background-color: white; }
 
 .about-wrapper {
   background-color: #11629f;
@@ -2961,7 +2957,7 @@ ul.marquee-nav-ul {
     line-height: 1.5; }
   .about img {
     position: absolute;
-    bottom: -45px;
+    bottom: -65px;
     left: 640px;
     z-index: 9990;
     height: 365px; }
