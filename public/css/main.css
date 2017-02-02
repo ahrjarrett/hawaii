@@ -3071,6 +3071,8 @@ ul.marquee-nav-ul {
   left: 0;
   -webkit-transition: background 0.15s ease 0s;
   transition: background 0.15s ease 0s; }
+.featured-feed .article-frame img {
+  width: 100%; }
 
 .featured-feed .article-frame:hover h3 {
   background-color: #47a305;
