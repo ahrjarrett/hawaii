@@ -39,13 +39,14 @@ module.exports = function IndexData(opts) {
 	};
 
 	this.info = {
-		header: 'New & Used Medical Equipment',
+		header: 'What you can expect:',
 		class: 'color-index-view',
 		cards: [
 			{
-					title: 'Vital Signs Monitors',
+					title: 'Owning vs. Renting',
 					image: 'info-1.jpg',
-					body: 'These vital signs monitors are available new or professionally refurbished to original factory specifications by our trained biomedical technicians. Every refurbished machine from DME Medical comes backed by a warranty.',
+					body: 'Owning a home in Hawaii offers distinct advantages to members of the military. Locations’ experienced military experts will show you how to use housing allowance (BAH) and access Veterans Affairs (VA) loans to purchase a home that fits your circumstances.',
+
 					bodySmall: 'Every refurbished machine from DME Medical comes backed by a warranty.',
 					anchor: {
 						route: 'about-us',
@@ -54,26 +55,26 @@ module.exports = function IndexData(opts) {
 					caption: 'Know what to expect.'
 			},
 			{
-					title: 'Defibrillators',
+					title: 'VA Loans',
 					image: 'info-2.jpg',
-					body: 'DRE offers defibrillators in a variety of configurations, from manually-operated defibrillators for EMS professionals to wall-mounted AED units that allow non-medical personnel to offer guided resuscitation in schools, gyms, and other environments.',
-					bodySmall: 'Sun Ray Pools has one focus: Building unique and beautiful custom pools.',
+					body: 'VA Loans provide a great opportunity for military members in Hawaii. Locations military specialists break down the benefits.',
+					bodySmall: 'Get connected with a loan specialist today.',
 					anchor: {
 						route: 'swimming-pools',
-						text: 'Compare models',
+						text: 'Compare rates',
 					},
-					caption: 'Top brands including Philips, Zoll, Lifepak and more.'
+					caption: 'Get connected with a loan specialist today.',
 			},
 			{
-					title: 'Ultrasound Equipment',
+					title: 'Military Relocation Guide',
 					image: 'info-3.jpg',
-					body: 'Choose either a factory new, DRE brand or a professionally refurbished unit from an industry-leading brand such as Siemens, GE, Philips and more.',
+					body: 'Learn about different neighborhoods. Which one is best for you? Depends on where you’re stations.',
 					bodySmall: 'Spend more quality time with those you love. Tell us how our family can help yours!',
 					anchor: {
 						route: '#open-modal-contact',
-						text: 'Get an Estimate'
+						text: 'Get the guide'
 					},
-					caption: 'Tell us what we can do to help you!'
+					caption: 'Download the step-by-step guide for military personnel relocating from the mainland.',
 			}
 		]
 	};
