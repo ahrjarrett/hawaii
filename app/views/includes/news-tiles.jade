@@ -1,0 +1,90 @@
+#news-tiles.news-tiles.container
+  .featured-feed
+    .panel.with-nav-tabs.panel-default
+      .panel-heading
+        ul.nav.nav-tabs.nav-justified.clearfix(role='tablist')
+          li.active(data-tab-selector='1')
+            a(href='#companyNewsFeed' data-toggle='tab' aria-expanded='true').
+              #[i.icon-graph]
+              Company News
+          li(data-tab-selector='2')
+            a(href='#industryNewsFeed' data-toggle='tab' aria-expanded='true').
+              #[i.icon-atom]
+              Industry News
+          li(data-tab-selector='3')
+            a(href='#liveFeed' data-toggle='tab' aria-expanded='true').
+              #[i.icon-health]
+              Live Feed
+      .tab-content.clearfix
+
+        //- #1
+        #companyNewsFeed.tab-pane.fade.active.in(data-tab-number='1')
+          .article-container.col-md-7.col-sm-6.col-xs-12
+            .article-box
+              a.article-frame(href='#')
+                img.img-responsive(src='/images/article-frame-1.png')
+                h3 Introducing the New DME Torino 550 – A Multi-Purpose Mobile Surgery Table Designed to Increase Operating Room Efficiency
+              .article-excerpt
+                p DME is pleased to announce an addition to its line of high-quality surgical tables designed to offer your facility an affordable, stylish upgrade. The #[a(href='#' target='_blank') DME Torino 550 Mobile Surgery Table] is a modern take on traditional medical equipment designs, outpacing its competitors in both attributes and value. With large, durable casters and a convenient braking system, medical professionals can easily move the DME Torino 550 Surgical Table throughout their facilities.
+          .article-container.col-md-5.col-sm-6.col-xs-12
+            ul
+              li
+                a(href='#')
+                  h3.title New Capnography Regulations Set for Colorado Dental Facilities
+                  span.cover(style='background-image:url(/images/info-1.jpg)')
+              li
+                a(href='#')
+                  h3.title Introducing the New DME Integra SP VSO2 — Same Functionality, Streamlined Design
+                  span.cover(style='background-image:url(/images/info-2.jpg)')
+              li
+                a(href='#')
+                  h3.title This Just In: Section 179 Expands 2015 Deduction Limit to $500,000
+                  span.cover(style='background-image:url(/images/info-3.jpg)')
+
+        //- #2
+        #industryNewsFeed.tab-pane.fade(data-tab-number='2')
+          .article-container.col-md-7.col-sm-6.col-xs-12
+            .article-box
+              a.article-frame(href='#')
+                img.img-responsive(src='/images/article-frame-2.jpg')
+                h3 How Philips is Using Augmented Reality to Improve the Accuracy of Spinal Surgery
+              .article-excerpt
+                p Kaléo Inc. said yesterday that its Auvi-Q epinephrine auto-injector will be available by prescription in the U.S. beginning Feb. 14th. The Richmond, Virginia-based company’s emergency allergy treatment was pulled from the market in 2015 due to manufacturing issues.
+          .article-container.col-md-5.col-sm-6.col-xs-12
+            ul
+              li
+                a(href='#')
+                  h3.title Donald Trump: 5 questions medtech needs to ask
+                  span.cover(style='background-image:url(/images/industry-news-1.jpg);')
+              li
+                a(href='#')
+                  h3.title New Latex-Free Options for Tourniquets and Similar Devices
+                  span.cover(style='background-image:url(/images/industry-news-2.png);')
+              li
+                a(href='#')
+                  h3.title  Augmented reality will change the way you view surgery
+                  span.cover(style='background-image:url(/images/industry-news-3.jpg);')
+
+        //- #3
+        #liveFeed.tab-pane.fade(data-tab-number='3')
+          .article-container.col-md-7.col-sm-6.col-xs-12
+            .article-box
+              a.article-frame(href='#')
+                img.img-responsive(src='/images/article-frame-3.jpg')
+                h3 The frontal cortex of the brain controls vision, research indicates; it omits things in plain sight
+              .article-excerpt
+                p DME is pleased to announce an addition to its line of high-quality surgical tables designed to offer your facility an affordable, stylish upgrade. The #[a(href='#' target='_blank') DME Torino 550 Mobile Surgery Table] is a modern take on traditional medical equipment designs, outpacing its competitors in both attributes and value. With large, durable casters and a convenient braking system, medical professionals can easily move the DME Torino 550 Surgical Table throughout their facilities.
+          .article-container.col-md-5.col-sm-6.col-xs-12
+            ul
+              li
+                a(href='#')
+                  h3.title New Capnography Regulations Set for Colorado Dental Facilities
+                  span.cover(style='background-image:url(/images/industry-news-1.jpg)')
+              li
+                a(href='#')
+                  h3.title Introducing the New DME Integra SP VSO2 — Same Functionality, Streamlined Design
+                  span.cover(style='background-image:url(/images/industry-news-2.png)')
+              li
+                a(href='#')
+                  h3.title This Just In: Section 179 Expands 2015 Deduction Limit to $500,000
+                  span.cover(style='background-image:url(/images/industry-news-3.jpg)')

@@ -1,0 +1,37 @@
+doctype html
+//
+  |
+
+
+    Dallas Medical Equipment, Inc.
+
+
+html(lang='en')
+  head
+    meta(charset='UTF-8')
+    meta(name='viewport' content='width=device-width, initial-scale=1')
+    meta(http-equiv='x-ua-compatible' content='ie=edge')
+    meta(name='description' content='Dallas Medical Equipment is a made-up company.')
+    meta(name='referrer', content='always')
+    meta(name='keywords', content='texas swimming pool construction renovation design dallas metroplex rockwall mckinney plano residential swim spas outdoor kitchen')
+    title #{title} | #{company}
+    link(rel='apple-touch-icon', sizes='144x144', href='/apple-touch-icon.png')
+    link(rel='icon', type='image/png', href='/favicon-32x32.png', sizes='32x32')
+    link(rel='icon', type='image/png', href='/favicon-16x16.png', sizes='16x16')
+    link(rel='manifest', href='/manifest.json')
+    meta(name='theme-color', content='#ffffff')
+    link(type='text/plain' rel='robots' href='/robots.txt')
+    link(type='text/plain' rel='author' href='/humans.txt')
+    block css
+      link(rel='stylesheet', href='/lib/bootstrap/css/bootstrap.css')
+      link(rel='stylesheet', href='/lib/font-awesome/font-awesome.min.css')
+      //- link(rel='stylesheet', href='/lib/slick/slick.css')
+      link(rel='stylesheet', href='/css/main.css')
+    block js
+      //- script(src='/lib/jquery/jquery-1.12.3.js')
+      script(src='/lib/jquery-2.2.4/jquery.js')
+      script(src='/lib/bootstrap/js/bootstrap.js')
+      script(src='/js/testing.js')
+      script(src='/js/scroll.js')
+      if ENV_DEVELOPMENT
+        script(src='http://localhost:35729/livereload.js')
