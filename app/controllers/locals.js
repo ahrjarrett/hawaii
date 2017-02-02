@@ -69,17 +69,16 @@ module.exports = function (app) {
 	app.locals.nav = {
 		'Welcome': '',
 		'About': 'about-us',
-		'Services': 'outdoor-living',
-		'Portfolio': 'swimming-pools'
+		'Profile': 'outdoor-living'
 	}
 
 	app.locals.subnav = {
-		'Medical Equipment': 'outdoor-living',
-		'Specialties': 'special-features',
-		'Services': 'financing',
-		'Medical Supplies': 'financing',
+		'Buy': 'outdoor-living',
+		'Sell': 'special-features',
+		'Financing': 'financing',
+    'Agents': 'agents',
+		'Learn': 'financing',
 		'Resources': 'financing',
-		'Brands': 'financing',
 		'News': 'financing'
 	}
 
