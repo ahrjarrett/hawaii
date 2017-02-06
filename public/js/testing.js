@@ -1,20 +1,5 @@
 $(function() {
 
-  //$('a[href="#back-to-top"]').click(function(e) {
-  //  console.log(e)
-  //  $('html, body').animate({ scrollTop: 0 }, 'slow')
-  //  return false
-  //})
-
-  //var scrollTop = document.getElementById('scrollTop')
-
-  //scrollTop.addEventListener('click', function(e) {
-  //  e.preventDefault()
-  //  window.scrollTo(10, 100)
-
-  //})
-
-
 	var imgDir = './images/'
 	var hero0 = new Image()
 	var hero1 = new Image()

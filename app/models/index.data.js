@@ -44,7 +44,7 @@ module.exports = function IndexData(opts) {
 		cards: [
 			{
 					title: 'Owning vs. Renting',
-					image: 'info-1.jpg',
+					image: 'info-2.jpg',
 					body: 'Owning a home in Hawaii offers distinct advantages to members of the military. Locations’ experienced military experts will show you how to use housing allowance (BAH) and access Veterans Affairs (VA) loans to purchase a home that fits your circumstances.',
 
 					bodySmall: 'Every refurbished machine from DME Medical comes backed by a warranty.',
@@ -56,7 +56,7 @@ module.exports = function IndexData(opts) {
 			},
 			{
 					title: 'VA Loans',
-					image: 'info-2.jpg',
+					image: 'info-1.jpg',
 					body: 'VA Loans provide a great opportunity for military members in Hawaii. Locations military specialists break down the benefits.',
 					bodySmall: 'Get connected with a loan specialist today.',
 					anchor: {
