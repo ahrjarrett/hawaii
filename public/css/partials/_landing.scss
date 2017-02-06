@@ -50,9 +50,9 @@
 
 }
 .mainImg{
-	height: 570px;
+	height: 720px;
 	width: 100%;
-	padding-top: 120px;
+	padding-top: 270px;
 	// background-size: cover;
 	// background-position: center top;
 	position: relative;
@@ -341,8 +341,9 @@ div.contact-us-btn{
 .showcase {
 	width: 1024px;
 	display: flex;
-	justify-content: space-between;
+	justify-content: center;
 	margin: 0 auto;
+  margin-bottom: 80px;
 }
 
 .spotlight-bg {
@@ -392,6 +393,8 @@ div.contact-us-btn{
 	margin-top: -60px;
 	display: flex;
 }
+
+.show-card-footer i { transform: rotate(270deg) }
 
 .showcase-item {
 	cursor: pointer;
@@ -587,7 +590,7 @@ p.val-hidden {
 
 @media all and (min-width: 768px) {
 	.card-wrapper {
-		width: 33%;
+		width: 40%;
 		display: flex;
 	}
 	.show-card-item {

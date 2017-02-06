@@ -540,7 +540,7 @@ span.carousel-btn {
 
 @media (min-width: 768px) {
   .fiftypx {
-    margin-top: 50px; } }
+    margin-top: 146px; } }
 
 .btn-main {
   background: #47a305;
@@ -1595,9 +1595,9 @@ div.quote a:hover img {
   padding-right: 20px; }
 
 .mainImg {
-  height: 570px;
+  height: 720px;
   width: 100%;
-  padding-top: 120px;
+  padding-top: 270px;
   position: relative; }
   @media all and (max-width: 640px) {
     .mainImg {
@@ -1849,10 +1849,11 @@ div.contact-us-btn {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  margin: 0 auto; }
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0 auto;
+  margin-bottom: 80px; }
 
 .spotlight-bg {
   background-size: cover;
@@ -1896,6 +1897,10 @@ div.contact-us-btn {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex; }
+
+.show-card-footer i {
+  -webkit-transform: rotate(270deg);
+          transform: rotate(270deg); }
 
 .showcase-item {
   cursor: pointer;
@@ -2067,7 +2072,7 @@ p.val-hidden {
 
 @media all and (min-width: 768px) {
   .card-wrapper {
-    width: 33%;
+    width: 40%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex; }
@@ -2874,7 +2879,9 @@ body {
   border-bottom: 1px solid #a0a4a7;
   background-color: #dadee0;
   background: -webkit-linear-gradient(top, #ffffff 0%, #dadee0 100%);
-  background: linear-gradient(to bottom, #ffffff 0%, #dadee0 100%); }
+  background: linear-gradient(to bottom, #ffffff 0%, #dadee0 100%);
+  /* TEMPORARY: */
+  display: none; }
 
 .carousel-indicators {
   height: 100px; }

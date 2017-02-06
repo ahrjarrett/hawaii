@@ -1,11 +1,7 @@
 module.exports = function IndexData(opts) {
 
-	this.title = 'DME';
-	this.url = '#';
-
-	//this.buttons = [
-	//	'Pools', 'Spas', 'Firepits', 'Patio'
-	//];
+	this.title = 'HawaiiMIL'
+	this.url = '#'
 
 	this.home = {
 		ns: 'hero',
@@ -36,10 +32,10 @@ module.exports = function IndexData(opts) {
 			bannerB: '13 Hacks for a Summer Bod',
 			btntext: 'Download'
 		}
-	};
+	}
 
 	this.info = {
-		header: 'What you can expect:',
+		header: 'What we can help you with:',
 		class: 'color-index-view',
 		cards: [
 			{
@@ -77,7 +73,7 @@ module.exports = function IndexData(opts) {
 					caption: 'Download the step-by-step guide for military personnel relocating from the mainland.',
 			}
 		]
-	};
+	}
 
 	this.info1 = {
 		header: 'What else?',
@@ -117,7 +113,7 @@ module.exports = function IndexData(opts) {
 					caption: 'We put together a list of answers that will help you understand what to expect.'
 			}
 		]
-	};
+	}
 
 	this.features = {
 		rowone: {
@@ -145,7 +141,7 @@ module.exports = function IndexData(opts) {
 			1:[ 'slide08.jpg', 'Outdoor Kitchens', 'subway', 'financing', 'Custom-made and designed for outdoor living' ],
 			2:[ 'slide09.jpg', 'Patios & Decks', 'bicycle', 'swimming-pools', 'Your whole backyard, custom-built to your liking' ]
 		}
-	};
+	}
 
 	this.quotes = {
 		heads: [
@@ -175,6 +171,6 @@ module.exports = function IndexData(opts) {
 				name: ''
 			}
 		]
-	};
+	}
 
-};
+}

@@ -1,39 +1,47 @@
 module.exports = function ProductData(opts) {
-	// if(!opts) opts = {};
-	
-	this.title = 'About';
-	this.url = 'about-us';
+	// if(!opts) opts = {}
+
+	this.title = 'About'
+	this.url = 'about-us'
 
 
 	this.spotlight = {
-		'header': 'Residential Pools',
-		'subheader': 'What will your new pool look like?',
+		'header': 'About Us',
+		'subheader': 'Together, we are HawaiiMIL.',
 		'bg': 'spotlight0.jpg',
-		'action': 'Choose which service you are most interested in:',
+		'action': 'Click on one of our profiles to learn more:',
 		'products': {
 			'Social Media': 'Learn about how social networking can help you grow, and take your business to the next level.',
 			'Website Development': 'End-to-end website design and development, fully customized based on what you need, right now.',
 			'Search Engine Marketing': 'You should be spending your time on your business, not learning how to rank higher than your competitors on Google.'
 		}
-	};
+	}
 
 	this.showcase = [
 		{
-			img: 'showcase0.jpg',
-			head: 'About Sun Ray Pools',
-			body: 'We serve Rockwall, McKinney, Plano and the entire Dallas Metroplex. We provide on-site supervision with every step of the construction of your pool.'
+			img: 'About-Trimmed-SmithShannon.jpg',
+			head: 'Shannon Smith',
+			body: 'A company partner with 20 years of experience in real estate, Shannon is fully capable of handling a wide variety of clients.'
 		},
 		{
-			img: 'showcase1.jpg',
-			head: 'Products & Services',
-			body: 'Our work is primarily: Residential Pools, Outdoor Living, Service Pool Covers, and Swim Spas Renovations.'
-		},
-		{
-		img: 'showcase2.jpg',
-			head: 'Professional Associations',
-			body: 'Proud to be a member of the Better Business Bureau (BBB) and the Association of Pool & Spa Professionals (APSP).'
+			img: 'About-Trimmed-AhMooReine.jpg',
+			head: 'Reine Ah Moo',
+			body: 'Reine’s dedication to her clients is unmatched, and her motivation and enthusiasm are contagious.'
 		}
-	];
+  ]
+
+  this.showcase2 = [
+		{
+			img: 'About-Trimmed-HoCui.jpg',
+			head: 'Cui Me Ho',
+			body: 'While working with clients, she strives to understand their needs and goals and develop a strategy that helps them attain their goals.'
+		},
+		{
+			img: 'About-Trimmed-MillerCaroline.jpg',
+			head: 'Caroline Miller',
+			body: 'Hard working real estate professional, always going over and beyond the call of duty to help each and every client thoroughly.'
+		}
+  ]
 
 	this.accordion = [
 		{
@@ -112,9 +120,9 @@ module.exports = function ProductData(opts) {
 			]
 		}
 
-	];
+	]
 
 
 
 
-};
+}
