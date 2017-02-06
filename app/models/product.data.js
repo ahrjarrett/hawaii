@@ -21,11 +21,13 @@ module.exports = function ProductData(opts) {
 		{
 			img: 'About-Trimmed-SmithShannon.jpg',
 			head: 'Shannon Smith',
+      url: 'shannon-smith',
 			body: 'A company partner with 20 years of experience in real estate, Shannon is fully capable of handling a wide variety of clients.'
 		},
 		{
 			img: 'About-Trimmed-AhMooReine.jpg',
 			head: 'Reine Ah Moo',
+      url: 'reine-ah-moo',
 			body: 'Reine’s dedication to her clients is unmatched, and her motivation and enthusiasm are contagious.'
 		}
   ]
@@ -34,11 +36,13 @@ module.exports = function ProductData(opts) {
 		{
 			img: 'About-Trimmed-HoCui.jpg',
 			head: 'Cui Me Ho',
+      url: 'cui-mei-ho',
 			body: 'While working with clients, she strives to understand their needs and goals and develop a strategy that helps them attain their goals.'
 		},
 		{
 			img: 'About-Trimmed-MillerCaroline.jpg',
 			head: 'Caroline Miller',
+      url: 'caroline-miller',
 			body: 'Hard working real estate professional, always going over and beyond the call of duty to help each and every client thoroughly.'
 		}
   ]

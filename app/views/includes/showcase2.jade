@@ -1,7 +1,7 @@
 .showcase-wrapper
   .showcase
     each val, i in showcase2
-      a.card-wrapper(href='#showcase-item-' + i)
+      a.card-wrapper(href='/about/#{val.url}')
         .showcase-item.smooth-scroll(class='showcase-item-#{i}')
           .show-card
             .circle
