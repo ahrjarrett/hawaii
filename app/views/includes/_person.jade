@@ -1,0 +1,36 @@
+.about-realtor-wrapper
+  .realtor-img
+    img(src= person.img)
+  .realtor-name
+    h2= name
+  .realtor-title
+    h4= person.title
+    h4= person.id
+
+  .realtor-address
+    each line, i in person.address
+      p= line
+  .realtor-contact
+    .realtor-email
+      a(href='mailto:#{person.email}')= person.email
+    .realtor-phone
+      p Direct: #[a(href='tel:+1#{person.phone}')= prettifyPhone(person.phone)]
+    .realtor-mobile
+      p Mobile: #[a(href='tel:+1#{person.mobile}')= prettifyPhone(person.mobile)]
+
+  .realtor-redirect
+    .realtor-recent-sales
+      a(href= person.recentSales) My Recent Sales
+    .realtor-locations-page
+      a(href= person.url) Work with #{name}
+
+  .realtor-about
+    h3 About #{name}
+    h1 About
+    each pg, i in person.description
+      p= pg
+
+  .realtor-expertise
+    h1 Expertise
+    each pg, i in person.expertise
+      p= pg

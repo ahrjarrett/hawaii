@@ -1,4 +1,5 @@
 module.exports = function LandingData(name) {
+  const imgDir = '/images/'
   const address = [
     'Diamond Head Office',
     '614 Kapahulu Avenue, Suite 200',
@@ -7,11 +8,12 @@ module.exports = function LandingData(name) {
 
   const shannon = {
     title: 'REALTOR, Partner',
+    img: imgDir + 'About-SmithShannon.jpg',
     id: 'RB-21159',
     email: 'shannon.smith@locationshawaii.com',
     address: address,
-    phone: '(808) 738-3139',
-    mobile: '(808) 225-3736',
+    phone: '8087383139',
+    mobile: '8082253736',
     url: 'https://www.locationshawaii.com/agent/shannon.smith/',
     recentSales: 'https://www.locationshawaii.com/agent/portal/shannon.smith/',
     description: [
@@ -34,11 +36,12 @@ module.exports = function LandingData(name) {
 
   const reine = {
     title: 'REALTOR, Fine Homes Specialist',
+    img: imgDir + 'About-AhMooReine.jpg',
     id: 'RB-21168',
     email: 'reine.ahmoo@locationshawaii.com',
     address: address,
-    phone: '(808) 738-3173',
-    mobile: '(808) 343-4204',
+    phone: '8087383173',
+    mobile: '8083434204',
     url: 'https://www.locationshawaii.com/agent/reine.ahmoo/',
     recentSales: 'https://www.locationshawaii.com/agent/portal/reine.ahmoo/',
     description: [
@@ -55,11 +58,12 @@ module.exports = function LandingData(name) {
 
   const cui = {
     title: 'REALTOR',
+    img: imgDir + 'About-HoCui.jpg',
     id: 'RB-20657',
     email: 'cui.ho@locationsllc.com',
     address: address,
-    phone: '(808) 732-5087',
-    mobile: '(808) 382-7935',
+    phone: '8087325087',
+    mobile: '8083827935',
     url: 'https://www.locationshawaii.com/agent/cui.ho/',
     recentSales: 'https://www.locationshawaii.com/agent/portal/cui.ho/',
     description: [
@@ -77,11 +81,12 @@ module.exports = function LandingData(name) {
 
   const caroline = {
     title: 'REALTOR',
+    img: imgDir + 'About-MillerCaroline.jpg',
     id: 'RB-21113',
     email: 'caroline.miller@locationshawaii.com',
     address: address,
-    phone: '(808) 738-3133',
-    mobile: '(808) 630-9396',
+    phone: '8087383133',
+    mobile: '8086309396',
     url: 'https://www.locationshawaii.com/agent/caroline.miller/',
     recentSales: 'https://www.locationshawaii.com/agent/portal/caroline.miller/',
     description: [

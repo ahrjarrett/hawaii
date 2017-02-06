@@ -14,10 +14,10 @@ $(function() {
 	var bgEnd = ')'
 	var bgStyles = 'background-size: cover; background-position: center center; transition: all 0.4s ease;'
 
-	hero0.src = imgDir + 'main0.jpg'
-	hero1.src = imgDir + 'main1.jpg'
-	hero2.src = imgDir + 'main2.jpg'
-	hero3.src = imgDir + 'main3.jpg'
+	hero0.src = '/' + imgDir + 'main0.jpg'
+	hero1.src = '/' + imgDir + 'main1.jpg'
+	hero2.src = '/' + imgDir + 'main2.jpg'
+	hero3.src = '/' + imgDir + 'main3.jpg'
 
 	quote0.text = 'quote0.text'
 	quote1.text = 'quote1.text'
@@ -30,10 +30,10 @@ $(function() {
 	var special1 = new Image()
 	var special2 = new Image()
 	var special3 = new Image()
-	special0.src = imgDir + 'slide58.jpg'
-	special1.src = imgDir + 'slide57.jpg'
-	special2.src = imgDir + 'slide56.jpg'
-	special3.src = imgDir + 'slide55.jpg'
+	special0.src = '/' + imgDir + 'slide58.jpg'
+	special1.src = '/' + imgDir + 'slide57.jpg'
+	special2.src = '/' + imgDir + 'slide56.jpg'
+	special3.src = '/' + imgDir + 'slide55.jpg'
 	special.head = ['Special Features.','Eco-Friendly.','Hands-Free.','Cruise Control']
 
 	var Data = {

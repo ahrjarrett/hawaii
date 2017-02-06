@@ -1,24 +1,8 @@
-h4 individual template:
-h4= title
-
-h2= name
-h2= url
-h2= person.title
-h2= person.address
-h2= person.phone
-h2= person.mobile
-h2= person.url
-h2= person.recentSales
-
-h2 Description:
-each pg, i in person.description
-  p= pg
-
-h2 Expertise:
-each pg, i in person.expertise
-  p= pg
-
-h2 Articles:
-each url, i in person.articles
-  p= url
-
+include ./includes/layout
+include ./mixins/mixins
+body
+  block content
+    +fullnav(url)
+    .fiftypx
+    +textblock(url)
+      include ./includes/_person
