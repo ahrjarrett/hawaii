@@ -4,6 +4,7 @@ Prototype for HawaiiMIL.com, [See the Demo Here](https://hawaiimil.herokuapp.com
 
 Todo:
 - ~~Inject Bootstrap~~
+- Add form functionality for /profile page and modals
 - Add fonts, fonts.scss (pick complementary font to Helvetica)
 - Land on temp color palette, add 3/4 to var.scss
 - Scrape data from below urls, FB page
