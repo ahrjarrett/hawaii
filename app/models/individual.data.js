@@ -1,17 +1,11 @@
 module.exports = function LandingData(name) {
   const imgDir = '/images/'
-  const address = [
-    'Diamond Head Office',
-    '614 Kapahulu Avenue, Suite 200',
-    'Honolulu, HI 96815'
-  ]
 
   const shannon = {
     title: 'REALTOR, Partner',
     img: imgDir + 'About-SmithShannon.jpg',
     id: 'RB-21159',
     email: 'shannon.smith@locationshawaii.com',
-    address: address,
     phone: '8087383139',
     mobile: '8082253736',
     url: 'https://www.locationshawaii.com/agent/shannon.smith/',
@@ -39,7 +33,6 @@ module.exports = function LandingData(name) {
     img: imgDir + 'About-AhMooReine.jpg',
     id: 'RB-21168',
     email: 'reine.ahmoo@locationshawaii.com',
-    address: address,
     phone: '8087383173',
     mobile: '8083434204',
     url: 'https://www.locationshawaii.com/agent/reine.ahmoo/',
@@ -61,7 +54,6 @@ module.exports = function LandingData(name) {
     img: imgDir + 'About-HoCui.jpg',
     id: 'RB-20657',
     email: 'cui.ho@locationsllc.com',
-    address: address,
     phone: '8087325087',
     mobile: '8083827935',
     url: 'https://www.locationshawaii.com/agent/cui.ho/',
@@ -84,7 +76,6 @@ module.exports = function LandingData(name) {
     img: imgDir + 'About-MillerCaroline.jpg',
     id: 'RB-21113',
     email: 'caroline.miller@locationshawaii.com',
-    address: address,
     phone: '8087383133',
     mobile: '8086309396',
     url: 'https://www.locationshawaii.com/agent/caroline.miller/',
@@ -120,7 +111,7 @@ module.exports = function LandingData(name) {
 
   this.title = 'About Realtor'
   this.name = name
-    .replace('-', ' ')
+    .replace(/-/g, ' ')
     .split(' ')
     .map((str) => str.capitalizeFirstLetter())
     .join(' ')

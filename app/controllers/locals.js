@@ -8,9 +8,15 @@ module.exports = function (app) {
     var ph = phone.toString()
     return '(' + ph.slice(0,3) + ') ' + ph.slice(3,6) + '-' + ph.slice(6)
   }
+  app.locals.address = [
+    'Diamond Head Office',
+    '614 Kapahulu Avenue, Suite 200',
+    'Honolulu, HI 96815'
+  ]
 
-	app.locals.rootUrl = 'http://HawaiiMIL.com'
-	app.locals.social = {
+
+app.locals.rootUrl = 'http://HawaiiMIL.com'
+app.locals.social = {
     //'https://github.com/ahrjarrett': 'icon-pacman',
     //'https://github.com/ahrjarrett': 'icon-github',
 		//'https://twitter.com/': 'icon-twitter-with-circle',
