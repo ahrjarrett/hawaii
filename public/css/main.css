@@ -904,6 +904,9 @@ span.carousel-btn {
   left: 20px;
   z-index: 1503;
   width: 225px; }
+  @media screen and (min-width: 768px) {
+    #logo {
+      padding-left: 70px; } }
   #logo .logo {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -2598,9 +2601,8 @@ span.post-author strong {
   width: 100%;
   padding: 0 calc((100% - 1240px) / 2 ); }
 
-@media screen and (max-width: 1150px) {
-  .searchbar {
-    display: none; } }
+.searchbar {
+  display: none; }
 
 .nav-search {
   display: -webkit-box;

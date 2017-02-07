@@ -70,7 +70,7 @@ module.exports = function (app) {
     })
   })
 
-	router.get('/outdoor-living', function (req, res, next) {
+	router.get('/profile', function (req, res, next) {
 		var data = new LandingData()
 		res.render('landing', {
 			title: data.title,

@@ -10,9 +10,10 @@
 }
 
 .searchbar {
-  @media screen and (max-width: 1150px) {
-    display: none;
-  }
+  display: none;
+  //@media screen and (max-width: 1150px) {
+  //  display: none;
+  //}
 }
 
 .nav-search {

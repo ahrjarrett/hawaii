@@ -35,7 +35,7 @@ module.exports = function IndexData(opts) {
 	}
 
 	this.info = {
-		header: 'What we can help you with:',
+		header: 'What we can help you with?',
 		class: 'color-index-view',
 		cards: [
 			{
@@ -56,8 +56,8 @@ module.exports = function IndexData(opts) {
 					body: 'VA Loans provide a great opportunity for military members in Hawaii. Locations military specialists break down the benefits.',
 					bodySmall: 'Get connected with a loan specialist today.',
 					anchor: {
-						route: 'swimming-pools',
-						text: 'Compare rates',
+						route: '#open-modal-contact',
+						text: 'Compare rates'
 					},
 					caption: 'Get connected with a loan specialist today.',
 			},
@@ -67,7 +67,7 @@ module.exports = function IndexData(opts) {
 					body: 'Learn about different neighborhoods. Which one is best for you? Depends on where you’re stations.',
 					bodySmall: 'Spend more quality time with those you love. Tell us how our family can help yours!',
 					anchor: {
-						route: '#open-modal-contact',
+						route: 'https://www.locationshawaii.com/learn/military/military-relocation-guide/',
 						text: 'Get the guide'
 					},
 					caption: 'Download the step-by-step guide for military personnel relocating from the mainland.',
