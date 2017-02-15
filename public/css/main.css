@@ -2692,9 +2692,9 @@ button.btn-search {
   .contact-now i:hover {
     color: #18345d; }
 .contact-now i.icon-phone {
-  font-size: 30px;
-  padding-top: 10px;
-  padding-right: 1px; }
+  font-size: 24px;
+  padding-top: 13px;
+  padding-right: 0px; }
 
 .globe-icon {
   font-size: 17px; }
