@@ -14,6 +14,8 @@ module.exports = function (app) {
     'Honolulu, HI 96815'
   ]
 
+  app.locals.email = 'shannon.smith@locationshawaii.com'
+
 
 app.locals.rootUrl = 'http://HawaiiMIL.com'
 app.locals.social = {
