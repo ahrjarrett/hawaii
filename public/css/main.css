@@ -2807,6 +2807,22 @@ body {
   position: relative;
   top: 50px; }
 
+.realtor-call-to-action {
+  text-align: center;
+  margin-top: 35px; }
+  .realtor-call-to-action .btn-marquee {
+    border-radius: 5px;
+    font-size: 1.5rem;
+    color: #fff;
+    padding: 10px 2.5rem; }
+    .realtor-call-to-action .btn-marquee i {
+      padding-left: 6px; }
+    .realtor-call-to-action .btn-marquee:hover {
+      color: #fff; }
+
+.map {
+  padding-top: 100px; }
+
 .page-narrow {
   max-width: 1060px;
   margin: 0 auto; }

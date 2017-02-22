@@ -50,7 +50,8 @@ app.locals.social = {
 		//'Learn': 'financing',
 		//'Resources': 'financing',
 		//'News': 'financing'
-    'Contact': '#open-modal-contact'
+    'Contact': '#open-modal-contact',
+    'Military Map': 'map'
 	}
 
 	app.locals.partners = [

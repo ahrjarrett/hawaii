@@ -62,15 +62,15 @@ module.exports = function IndexData(opts) {
 					caption: 'Get connected with a loan specialist today.',
 			},
 			{
-					title: 'Military Relocation Guide',
+					title: 'Choosing a Neighborhood',
 					image: 'info-3.jpg',
-					body: 'Learn about different neighborhoods. Which one is best for you? Depends on where you’re stations.',
+					body: 'Learn about different neighborhoods. Which one is best for you? Depends on where you’re stationed.',
 					bodySmall: 'Spend more quality time with those you love. Tell us how our family can help yours!',
 					anchor: {
-						route: 'https://www.locationshawaii.com/learn/military/military-relocation-guide/',
+						route: 'map',
 						text: 'Get the guide'
 					},
-					caption: 'Download the step-by-step guide for military personnel relocating from the mainland.',
+					caption: 'Map of military bases on Oahu'
 			}
 		]
 	}

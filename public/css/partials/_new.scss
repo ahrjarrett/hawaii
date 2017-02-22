@@ -1,6 +1,5 @@
 // TODO: fix clearfix issue, position problem with above nav
 
-
 .nav-search-wrapper {
   display: flex;
   position: relative;
@@ -254,7 +253,21 @@ body {
   top: 50px;
 }
 
+.realtor-call-to-action {
+  text-align: center;
+  margin-top: 35px;
+  .btn-marquee {
+    border-radius: 5px;
+    font-size: 1.5rem;
+    color: #fff;
+    padding: 10px 2.5rem;
+    i { padding-left: 6px; }
+    &:hover { color: #fff; }
+  }
+}
 
-
+.map {
+  padding-top: 100px;
+}
 
 

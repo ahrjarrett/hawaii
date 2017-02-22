@@ -1,6 +1,7 @@
 .about-realtor-wrapper
   .realtor-img
-    img(src= person.img)
+    a(href='#{person.url}')
+      img(src= person.img)
   .realtor-name
     h2= name
   .realtor-title
@@ -34,3 +35,6 @@
     h1 Expertise
     each pg, i in person.expertise
       p= pg
+  .realtor-call-to-action
+    a(href='#{person.url}' class='btn-main btn-marquee') Learn More
+      i.fa.fa-arrow-right

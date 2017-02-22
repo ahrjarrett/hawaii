@@ -6,6 +6,7 @@ var BlogData       = require('../models/blog_index.data.js'),
 		IndexData      = require('../models/index.data.js'),
     IndividualData = require('../models/individual.data.js'),
 		LandingData    = require('../models/landing.data.js'),
+    MapData        = require('../models/map.data.js'),
 		PoolsData      = require('../models/pools.data.js'),
 		PortfolioData  = require('../models/portfolio.data.js'),
 		PostData       = require('../models/_firstpost.data.js'),
@@ -60,6 +61,14 @@ module.exports = function (app) {
         temperature: data.currently.temperature,
         icon: data.currently.icon
       })
+    })
+  })
+
+  router.get('/map', (req, res, next) => {
+    let data = new MapData()
+    res.render('map', {
+      title: data.title,
+      url: data.url
     })
   })
 
