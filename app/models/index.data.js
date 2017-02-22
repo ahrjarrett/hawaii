@@ -56,7 +56,7 @@ module.exports = function IndexData(opts) {
 					body: 'VA Loans provide a great opportunity for military members in Hawaii. Locations military specialists break down the benefits.',
 					bodySmall: 'Get connected with a loan specialist today.',
 					anchor: {
-						route: '#open-modal-contact',
+						route: 'financing',
 						text: 'Compare rates'
 					},
 					caption: 'Get connected with a loan specialist today.',
