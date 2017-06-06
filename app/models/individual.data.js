@@ -1,4 +1,4 @@
-module.exports = function LandingData(name) {
+module.exports = function IndividualData(name) {
   const imgDir = '/images/'
 
   const shannon = {
